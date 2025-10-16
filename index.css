@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+#Container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+label{
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#entercolor {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#submitbtn {
+  width: 100px;
+  height: 40px;
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#submitbtn:hover {
+  background-color: rgb(5, 186, 5);
+}
+
+#demo {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
