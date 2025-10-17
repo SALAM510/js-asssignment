@@ -1,3 +1,5 @@
+let submitbtn = document.getElementById('submitbtn');
+
 submitbtn.addEventListener("click", function (event) {
   event.preventDefault();
 
@@ -9,7 +11,7 @@ submitbtn.addEventListener("click", function (event) {
     document.getElementById('demo').innerHTML = 'Ready';
   } else if(color === 'Green'){
     document.getElementById('demo').innerHTML = 'Go';
-  } else {
+  } else { 
     document.getElementById("demo").innerHTML = 'Please Enter a color between Red,Yellow and Green.';
   }
 })
